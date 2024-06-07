@@ -1,9 +1,33 @@
-# Vue 3 + TypeScript + Vite
+# TODO App
+- App to build a todo list of tasks
+- To create the App was used the vuetify create app
+- Vue 3 + Vite + Vuetify(components) + Pinia(Central State Management)
+## To Setup and Run
+- Enter web-app folder
+- Use the command npm install
+- To start use npm run dev
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Expected functionalities
+- Adding tasks (use local storage to save);
+- Deleting tasks (One or several) 
+- Changing tasks;
+- Sorting tasks (All, completed, not completed)
 
-## Recommended Setup
+## The App looks
+- Adding Task
+![Alt text](./web-app/src/assets/todo0.png)
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- Delete Mode
+![Alt text](./web-app/src/assets/todo1.png)
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+- Modal to details of the task
+![Alt text](./web-app/src/assets/todo2.png)
+
+- Sorting Tasks completed and not completed
+![Alt text](./web-app/src/assets/todo3.png)
+
+Its interesting to note that once you are in the sorted mode, when completing a new one, the list updates correctly, without the need to sort again
+
+
+Fernando Nascimento
+fernandodiego.sn@gmail.com

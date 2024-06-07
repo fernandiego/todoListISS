@@ -8,7 +8,7 @@
         </v-btn>
         <v-btn class="ml-15" @click="deleteSelectedTasks" color="error" v-if="selectedTasks.length>0">Delete Selected
         </v-btn>
-        <v-btn class="ml-15" @click="toggleSortTasks" color="info">Sort Tasks</v-btn>
+        <v-btn class="ml-15" @click="toggleSortTasks" color="info">Sort</v-btn>
 
       </v-col>
     </v-row>
